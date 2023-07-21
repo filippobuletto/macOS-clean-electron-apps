@@ -83,9 +83,12 @@ for i in ~/Library/Application\ Support/Microsoft/Teams/Cache/*; do rm -rf "$i";
 for i in ~/Library/Application\ Support/Microsoft/Teams/GPUCache/*; do rm -rf "$i"; done
 for i in ~/Library/Application\ Support/Microsoft/Teams/IndexedDB/*; do rm -rf "$i"; done
 for i in ~/Library/Application\ Support/Microsoft/Teams/Local\ Storage/*; do rm -rf "$i"; done
-for i in ~/Library/Application\ Support/Microsoft/Teams/Service\ Worker/CacheStorage/*; do rm -rf "$i"; done
+for i in ~/Library/Application\ Support/Microsoft/Teams/Service\ Worker/*; do rm -rf "$i"; done
 for i in ~/Library/Application\ Support/Microsoft/Teams/blob_storage/*; do rm -rf "$i"; done
-for i in ~/Library/Application\ Support/Microsoft/Teams/tmp/*; do rm -rf "$i"; done
+for i in ~/Library/Application\ Support/Microsoft/Teams/Code\ Cache/*; do rm -rf "$i"; done
+for i in ~/Library/Application\ Support/Microsoft/Teams/media-stack/*; do rm -rf "$i"; done
+for i in ~/Library/Application\ Support/Microsoft/Teams/ai_models/*; do rm -rf "$i"; done
+for i in ~/Library/Application\ Support/Microsoft/Teams/*.txt; do rm -rf "$i"; done
 set +x
 }
 
